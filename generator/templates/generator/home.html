@@ -1,0 +1,35 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+<div class="container text-center">
+<h1>Password Generator</h1>
+<p>This is a method through which we can generate random password of desired length</p>
+<h3>Enter you preferences:</h3>
+<form name="Password Generator" action="generatedpassword">
+    <label for="password">Please specify the desired password length: </label>
+    <select name="length">
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12" selected="selected">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+    </select>
+    <br>
+    <input type="checkbox" name="isuppercase">Uppercase Characters
+    <br>
+    <input type="checkbox" name="isspecial">Special Characters
+    <br>
+    <input type="checkbox" name="isnumber">Numbers
+    <br>
+    <br>
+    <input value="Generate Password" type="Submit" class="btn btn-success btn-lg">
+</form>
+<br>
+<br>
+<br>
+<br>
+<a href = "about" class="btn btn-info">About the website</a>
+</div>
